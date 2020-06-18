@@ -231,7 +231,9 @@ This is the first edition of the MLOps Roadmap and sets out the initial challeng
   <tr>
     <td>Managing the security of data in the MLOps process with particular focus upon the increased risk associated with aggregated data sets used for training or batch processing</td>
     <td>- Aggregated data carries additional risk and represents a higher value target<br/>
-- Migration of data into Cloud environments, particularly for training, may be problematic</td>
+- Migration of data into Cloud environments, particularly for training, may be problematic<br/>
+- Default installations of the underlying tools may not be hardened for external exposure, and teams should investigate what (if anything) should be exposed publicly<br/>
+     - Ensuring the reliability of the pipelines used so that if/when security issues are found, they can be investigated, mitigated and rolled out quickly.<br/></td>
   </tr>
   <tr>
     <td>Implications of privacy, GDPR and the right to be forgotten upon training sets and deployed models</td>
